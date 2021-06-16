@@ -33,7 +33,7 @@ function App(props) {
     <S.Button type="button" onClick={handlePesquisa}>Pesquisa</S.Button>
     </S.Content>
     
-    { erro ? <S.ErrorMsg>Ocurreu um erro. Tente Novamente</S.ErrorMsg> : '' }
+    { erro ? <S.ErrorMsg>Ocorreu um erro. Tente Novamente</S.ErrorMsg> : '' }
     </S.HomeContainer>
     
   );

@@ -12,7 +12,7 @@ export const Title = styled.h1`
     text-align: center;
     font-size: 3rem;
     font-weight: 700;
-    color:#333;
+    color:#0094ff;
     text-transform: uppercase;
 
 `
@@ -29,6 +29,7 @@ export const ListIten = styled.li`
     background: #282a36;
     color: #FFF;
     padding: .5rem;
+    border-radius:5px;
 `
 
 export const LinkHome = styled(Link)`
